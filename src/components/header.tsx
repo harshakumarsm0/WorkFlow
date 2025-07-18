@@ -23,7 +23,7 @@ const Header = () => {
             <Link href="/contact" className="text-gray-600 hover:text-gray-900">{t('contact')}</Link>
           </nav>
           <div className="hidden md:flex items-center space-x-2">
-            <LocalSelect defaultValue={locale} label="Language"  />
+            <LocalSelect defaultValue={locale} />
             <Button variant="outline">{t('login')}</Button>
             <Button>{t('signup')}</Button>
           </div>
