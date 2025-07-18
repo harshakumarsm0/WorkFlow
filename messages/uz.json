@@ -1,0 +1,13 @@
+{
+    "HomePage": {
+        "title": "Salom dunyo!",
+        "about": "Haqida sahifasiga o'ting"
+    },
+    "Header": {
+        "home": "Uy",
+        "about": "Haqida",
+        "contact": "Aloqa",
+        "login": "Tizimga kirish",
+        "signup": "Ro'yxatdan o'tish"
+    }
+}
