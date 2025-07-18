@@ -13,8 +13,14 @@ interface LocaleLayoutProps {
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
-}: LocaleLayoutProps) {
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: Locale }>;
+}) {
+  // Await the params if it's a Promise
+  const { locale } = await params;
+
   // Ensure that the incoming `locale` is valid
   if (!locale || !routing.locales.includes(locale)) {
     notFound();
