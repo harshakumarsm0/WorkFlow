@@ -17,10 +17,9 @@ import { useParams } from 'next/navigation';
 
 type Props = {
   defaultValue: string;
-  label: string;
 };
 
-export default function LocalSelect({ defaultValue, label }: Props) {
+export default function LocalSelect({ defaultValue }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const params = useParams();
@@ -37,11 +36,6 @@ export default function LocalSelect({ defaultValue, label }: Props) {
 
   return (
     <div className="w-full">
-      {label && (
-        <label className="block mb-1 text-sm font-medium text-gray-700">
-          {label}
-        </label>
-      )}
       <Select defaultValue={defaultValue} onValueChange={handleChange}>
         <SelectTrigger className="w-full">
           <SelectValue placeholder="Language" />
