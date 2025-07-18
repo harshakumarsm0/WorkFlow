@@ -6,11 +6,6 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 import './globals.css';
 
-interface LocaleLayoutProps {
-  children: React.ReactNode;
-  params: { locale: Locale };
-}
-
 export default async function LocaleLayout({
   children,
   params,
