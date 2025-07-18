@@ -1,7 +1,21 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing, type Locale } from './routing';
 
-type Messages = Record<string, any>;
+interface Messages {
+  HomePage: {
+    title: string;
+    about: string;
+  };
+  Header: {
+    home: string;
+    about: string;
+    contact: string;
+    login: string;
+    signup: string;
+  };
+  [key: string]: Record<string, string>; // For any additional namespaces that might be added later
+}
+
 type RequestContext = {
   locale: string;
 };
