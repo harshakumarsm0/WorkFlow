@@ -1,3 +1,4 @@
+import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -25,14 +26,16 @@ export default async function LocaleLayout({
   const messages = await getMessages();
  
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-          <Header />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <LingoProvider loadDictionary={loadDictionary}>
+      <html lang={locale}>
+        <body>
+          <NextIntlClientProvider messages={messages}>
+            <Header />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    </LingoProvider>
   );
 }
