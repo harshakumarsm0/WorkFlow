@@ -1,0 +1,172 @@
+{
+  "files": {
+    "app/orders/page.tsx": {
+      "scopes": {
+        "0/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "c9d56e4e990422ac9570ed66380330ba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Orders"
+        },
+        "0/declaration/body/1/argument/3/1/1/1": {
+          "type": "element",
+          "hash": "e20c99d4b4a09fae09ea29ae7f8dbf5d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Order ID"
+        },
+        "0/declaration/body/1/argument/3/1/1/3": {
+          "type": "element",
+          "hash": "59130c3d4d998b7cd613ea4f69d60a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Item"
+        },
+        "0/declaration/body/1/argument/3/1/1/5": {
+          "type": "element",
+          "hash": "4e1fcce15854d824919b4a582c697c90",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Status"
+        },
+        "0/declaration/body/1/argument/3/1/1/7": {
+          "type": "element",
+          "hash": "a0ae9c6ff98b57475cdce56f66066aa4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Amount"
+        }
+      }
+    },
+    "app/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "3180ad6b8de344b781637750259e0f53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome"
+        },
+        "1/declaration/body/0/argument/13": {
+          "type": "element",
+          "hash": "83403237fd2bc04b662895a6fd65616f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is a testing words for gemini llm"
+        },
+        "1/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "c3f51628226d9510de99da77a4113274",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is a Next.js project"
+        },
+        "1/declaration/body/0/argument/5": {
+          "type": "element",
+          "hash": "7c0e5e0bcd11e34165af23f62f8074ba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis error sapiente ratione. Natus aliquid saepe similique alias. Rerum, aut delectus! Voluptates consectetur sed quasi inventore corrupti magni, molestiae ad magnam ipsa blanditiis illo alias, iure consequatur exercitationem! Neque explicabo veniam iusto suscipit nam corrupti?"
+        },
+        "1/declaration/body/0/argument/7": {
+          "type": "element",
+          "hash": "a5ba20628b39f805c694dbbbe87dc10f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is gemini translation "
+        },
+        "1/declaration/body/0/argument/9": {
+          "type": "element",
+          "hash": "7975c3cfea8b1f4d68a74b84dc19748e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is a testing words for gemini llm "
+        },
+        "2/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "3180ad6b8de344b781637750259e0f53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome"
+        },
+        "2/declaration/body/0/argument/11": {
+          "type": "element",
+          "hash": "7975c3cfea8b1f4d68a74b84dc19748e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is a testing words for gemini llm "
+        },
+        "2/declaration/body/0/argument/13": {
+          "type": "element",
+          "hash": "83403237fd2bc04b662895a6fd65616f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is a testing words for gemini llm"
+        },
+        "2/declaration/body/0/argument/15": {
+          "type": "element",
+          "hash": "83403237fd2bc04b662895a6fd65616f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is a testing words for gemini llm"
+        },
+        "2/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "c3f51628226d9510de99da77a4113274",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is a Next.js project"
+        },
+        "2/declaration/body/0/argument/5": {
+          "type": "element",
+          "hash": "7c0e5e0bcd11e34165af23f62f8074ba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis error sapiente ratione. Natus aliquid saepe similique alias. Rerum, aut delectus! Voluptates consectetur sed quasi inventore corrupti magni, molestiae ad magnam ipsa blanditiis illo alias, iure consequatur exercitationem! Neque explicabo veniam iusto suscipit nam corrupti?"
+        },
+        "2/declaration/body/0/argument/5/0": {
+          "type": "element",
+          "hash": "cc0adeaeb941f314eb20abb324a49b03",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Go to Orders Page"
+        },
+        "2/declaration/body/0/argument/7": {
+          "type": "element",
+          "hash": "7c0e5e0bcd11e34165af23f62f8074ba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis error sapiente ratione. Natus aliquid saepe similique alias. Rerum, aut delectus! Voluptates consectetur sed quasi inventore corrupti magni, molestiae ad magnam ipsa blanditiis illo alias, iure consequatur exercitationem! Neque explicabo veniam iusto suscipit nam corrupti?"
+        },
+        "2/declaration/body/0/argument/9": {
+          "type": "element",
+          "hash": "a5ba20628b39f805c694dbbbe87dc10f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "this is gemini translation "
+        }
+      }
+    }
+  }
+}
