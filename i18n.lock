@@ -24,3 +24,21 @@ checksums:
     Header/about: 944521eeeed2511833d2299931273c71
     Header/contact: 9afa39bc47019ee6dec6c74b6273967c
     Header/signup: a6a0b995463f62ce6a12e37f1d05a9bd
+    Footer/copyright: 26ea630d469617a355788206c5b33348
+    Footer/privacy: 7459744a63ef8af4e517a09024bd7c08
+    Footer/terms: 5add91f519e39025708e54a7eb7a9fc5
+    Footer/help: 73b806a0915ba3692c0ebc9361533f02
+    Common/loading: 82b4ea7ed1439094d7c4be13aaba9a66
+    Common/error: c62a7718d9a1e9c4ffb707807550f836
+    Common/success: a901d8e2dc7313938da5f15af8e94752
+    Common/cancel: 2e2a849c2223911717de8caa2c71bade
+    Common/submit: 7c91ef5f747eea9f77a9c4f23e19fb2e
+    AboutPage/title: 8f89131a66d4659be07cd5af2c7ea898
+    AboutPage/description: ecb510cb90315c7f9d8b6a987f49d2dc
+    AboutPage/team: 955966db001f699318e0eb42f0846d5f
+    AboutPage/history: e43e70d892c2879d6a47f7aa5f0dbc6b
+    ContactPage/title: 2a75337dc9603915c4ec1d1905afb7b9
+    ContactPage/description: 555a7ecf61dcc94ff9f294f9ca078472
+    ContactPage/email: e7f34943a0c2fb849db1839ff6ef5cb5
+    ContactPage/phone: b9537ee90fc5b0116942e0af29d926cc
+    ContactPage/address: 5a9a8bc26f90d84c90105690a2eb23a1

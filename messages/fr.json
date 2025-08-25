@@ -1,12 +1,43 @@
 {
   "HomePage": {
     "title": "Bonjour le monde!",
-    "about": "Go to the about page"
+    "about": "Go to the about page",
+    "subtitle": "Bienvenue dans notre application multilingue",
+    "description": "Ceci est une démonstration des capacités d'internationalisation utilisant next-intl. Vous pouvez passer d'une langue à l'autre pour voir les traductions en action.",
+    "welcome": "Merci de visiter notre site web. Nous espérons que vous apprécierez l'expérience !",
+    "learnMore": "En savoir plus sur nos services",
+    "newText": "Ceci est un texte supplémentaire sur la page d'accueil."
   },
   "Header": {
     "home": "Accueil",
     "about": "À propos",
     "contact": "Contact",
     "signup": "S'inscrire"
+  },
+  "Footer": {
+    "copyright": "© 2025 WorkFlow. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "help": "Centre d'aide"
+  },
+  "Common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "success": "Opération terminée avec succès !",
+    "cancel": "Annuler",
+    "submit": "Soumettre"
+  },
+  "AboutPage": {
+    "title": "À propos de nous",
+    "description": "En savoir plus sur notre mission et nos valeurs.",
+    "team": "Rencontrez notre équipe",
+    "history": "Notre histoire"
+  },
+  "ContactPage": {
+    "title": "Contactez-nous",
+    "description": "Nous aimerions avoir de vos nouvelles !",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse"
   }
 }
