@@ -13,5 +13,31 @@
       "about": "About",
       "contact": "Contact",
       "signup": "Sign up"
+    },
+    "Footer": {
+      "copyright": "© 2025 WorkFlow. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "help": "Help Center"
+    },
+    "Common": {
+      "loading": "Loading...",
+      "error": "Something went wrong. Please try again.",
+      "success": "Operation completed successfully!",
+      "cancel": "Cancel",
+      "submit": "Submit"
+    },
+    "AboutPage": {
+      "title": "About Us",
+      "description": "Learn more about our mission and values.",
+      "team": "Meet our team",
+      "history": "Our history"
+    },
+    "ContactPage": {
+      "title": "Contact Us",
+      "description": "We would love to hear from you!",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
     }
   }
