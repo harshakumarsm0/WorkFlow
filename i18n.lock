@@ -15,6 +15,11 @@ checksums:
   65f0b2bcf7f26084eccbea1631cf7828:
     HomePage/title: 981df558575dc8a5f088978cc57a4018
     HomePage/about: a4b73eaf541a5ab620c796b2d4964630
+    HomePage/subtitle: 876fa6e2a37ca34475e8bb3c3222f7cd
+    HomePage/description: 286e725735f73ee52916c790c70003e8
+    HomePage/welcome: 844e6eaab68003b61c5ce1e9f35b7a55
+    HomePage/learnMore: f641a9737a376255c31a3ce6e0d1d802
+    HomePage/newText: 49f678bd6760099b002389ab47566e28
     Header/home: 104a3db3b671c04e167eafbe21e57881
     Header/about: 944521eeeed2511833d2299931273c71
     Header/contact: 9afa39bc47019ee6dec6c74b6273967c
