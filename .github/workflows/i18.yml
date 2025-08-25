@@ -20,3 +20,5 @@ jobs:
       - uses: lingodotdev/lingo.dev@main
         with:
           api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
