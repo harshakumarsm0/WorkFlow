@@ -1,7 +1,12 @@
 {
     "HomePage": {
       "title": "Hello world!",
-      "about": "Go to the about page"
+      "about": "Go to the about page",
+      "subtitle": "Welcome to our multilingual application",
+      "description": "This is a demonstration of internationalization capabilities using next-intl. You can switch between different languages to see the translations in action.",
+      "welcome": "Thank you for visiting our website. We hope you enjoy the experience!",
+  "learnMore": "Learn more about our services",
+  "newText": "This is some additional text on the home page."
     },
     "Header":{
       "home": "Home",
