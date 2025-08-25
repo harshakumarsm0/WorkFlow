@@ -1,14 +1,13 @@
 {
-    "HomePage": {
-      "title": "Bonjour le monde!",
-      "about": "Go to the about page"
-    },
-    "Header": {
-      "home": "Accueil",
-      "about": "À propos",
-      "contact": "Contact",
-      "login": "Se connecter",
-      "signup": "S'inscrire"
-    }
-
+  "HomePage": {
+    "title": "Bonjour le monde!",
+    "about": "Go to the about page"
+  },
+  "Header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "signup": "S'inscrire"
   }
+}
