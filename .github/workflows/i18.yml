@@ -28,6 +28,5 @@ jobs:
           api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
           commit-message: "feat: update translations via lingo.dev"
           pull-request: true
-          pull-request-base: testbranch
           pull-request-title: "feat: PR for Updating translations via @LingoDotDev"
           

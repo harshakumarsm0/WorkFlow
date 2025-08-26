@@ -32,12 +32,5 @@
     "description": "En savoir plus sur notre mission et nos valeurs.",
     "team": "Rencontrez notre équipe",
     "history": "Notre histoire"
-  },
-  "ContactPage": {
-    "title": "Contactez-nous",
-    "description": "Nous aimerions avoir de vos nouvelles !",
-    "email": "Email",
-    "phone": "Téléphone",
-    "address": "Adresse"
   }
 }
