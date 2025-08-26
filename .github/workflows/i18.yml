@@ -13,6 +13,8 @@ permissions:
 jobs:
   i18n:
     name: Run i18n
+    # ✅ Only run if commit message contains "#lingo"
+    if: contains(github.event.head_commit.message, '#lingo')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
