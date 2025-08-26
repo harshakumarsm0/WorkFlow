@@ -10,7 +10,7 @@ export default function Home() {
         <p className="text-xl">{t('subtitle')}</p>
         <div className="max-w-2xl mx-auto">
           <p className="mb-4">{t('description')}</p>
-          <p>{t('welcome')}</p>
+          
         </div>
         <div className="mt-8">
           <a href="#" className="text-blue-500 hover:underline">{t('learnMore')}</a>
