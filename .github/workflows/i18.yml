@@ -3,10 +3,9 @@ name: Lingo.dev i18n
 on:
   push:
     branches:
-      - main
-      - feat/*
+      - testbranch
     paths:
-      - "messages/**"        # ✅ Only run if translation files change
+      - "messages/**"        
       - ".github/workflows/lingo.yml"
 
 permissions:
@@ -15,7 +14,7 @@ permissions:
 
 jobs:
   i18n:
-    if: contains(github.event.head_commit.message, '#lingo') # ✅ Commit message must have #lingo
+    if: contains(github.event.head_commit.message, '#lingo') 
     name: Run i18n
     runs-on: ubuntu-latest
     steps:
@@ -27,6 +26,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         with:
           api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
+          commit-message: "feat: update translations via lingo.dev"
           pull-request: true
-          pull-request-title: "feat: update translations via @LingoDotDev"
-          commit-message: "feat: update translations via @LingoDotDev"
+          pull-request-base: testbranch
+          pull-request-title: "feat: PR for Updating translations via @LingoDotDev"
+          
