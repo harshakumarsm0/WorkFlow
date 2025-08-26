@@ -13,13 +13,15 @@ permissions:
 jobs:
   i18n:
     name: Run i18n
-    # ✅ Only run if commit message contains "#lingo"
-    if: contains(github.event.head_commit.message, '#lingo')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: lingodotdev/lingo.dev@main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         with:
           api-key: ${{ secrets.LINGODOTDEV_API_KEY }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          pull-request: true
+          pull-request-title: "feat: update translations via @LingoDotDev"
+          commit-message: "feat: update translations via @LingoDotDev"
