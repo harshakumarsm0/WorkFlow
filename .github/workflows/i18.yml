@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - feat/*
+    paths:
+      - "messages/**"        # ✅ Only run if translation files change
+      - ".github/workflows/lingo.yml"
 
 permissions:
   contents: write
@@ -12,10 +15,12 @@ permissions:
 
 jobs:
   i18n:
+    if: contains(github.event.head_commit.message, '#lingo') # ✅ Commit message must have #lingo
     name: Run i18n
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: lingodotdev/lingo.dev@main
         env:
           GH_TOKEN: ${{ github.token }}
